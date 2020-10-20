@@ -1,0 +1,64 @@
+#page-login {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(329.54deg, #5DF5D4 0%, #00c7c7 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-login .content-wrapper .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-login .content-wrapper img {
+  height: 110px;
+  margin-left: -30px;
+}
+
+#page-login .content-wrapper {
+  width: 100%;
+  max-width: 1100px;
+
+  height: 100%;
+  max-height: 680px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+
+  background: url('../../assets/moeda.svg') no-repeat 75% center;
+  background-size: 500px;
+}
+
+.content-wrapper main{
+    max-width: 350px;
+}
+
+.content-wrapper .enter-app{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 80px;
+    height: 80px;
+    background:#E1FAEC;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color(0.2s);
+
+}
+
+
+.content-wrapper main h1{
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 70px;
+}

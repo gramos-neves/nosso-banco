@@ -1,0 +1,58 @@
+#page-register{
+ 
+        width: 100vw;
+  height: 100vh;
+  background: linear-gradient(329.54deg, #5DF5D4 0%, #00c7c7 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+     
+ 
+}
+
+
+#page-register .content-wrapper {
+    width: 100%;
+    max-width: 1100px;
+    height: 100%;
+    max-height: 680px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+    position: relative;
+  
+  
+  }
+
+
+  .formPeople{
+          margin-top: 20px;
+  }
+
+ 
+
+  .content-wrapper .enter-register{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    
+        width: 80px;
+        height: 80px;
+        background:#E1FAEC;
+        border-radius: 30px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color(0.2s);
+    
+    }
+
+
+    #page-register .content-wrapper .tabMenu {
+           width: 800px; 
+    }
+
+    
